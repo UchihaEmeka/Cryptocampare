@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="64dp"
+    android:paddingRight="64dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:orientation="vertical"
+    tools:context=".Launcher"
+    android:weightSum="1"
+    android:background="@drawable/ethnbtc">
+
+
+    <TextView
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:text="ALC 2.0 Converter"
+        android:id="@+id/textView"
+        android:layout_weight="0.05"
+        android:textColor="@android:color/background_dark"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
